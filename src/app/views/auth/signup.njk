@@ -1,0 +1,48 @@
+{% extends "_layouts/auth.njk" %}
+
+{% block body %}
+<div class="left">
+      <form action="/signup" method="post" enctype="multipart/form-data">
+        <label for="avatar" class="profileImg">
+          <img src="/images/avatar.png" />
+        </label>
+
+        <input id="avatar" name="avatar" type="file" class="profileImgInput" />
+        <hr />
+        <input type="text" name="name" placeholder="Nome e Sobrenome" />
+        <input type="text" name="email" placeholder="exemple@exemple.com" />
+        <input type="password" name="password" placeholder="********" />
+        <label for="provider" class="checkboxProvider">
+          <input type="checkbox" id="provider" name="provider" value="1" />
+          Sou Produtor de Eventos
+        </label>
+
+        <button type="submit">Criar Conta</button>
+        <a href="/" class="loginorsignup">Já possuo conta</a>
+      </form>
+    </div>
+    <div class="right">
+
+    <video autoplay muted loop id="myVideo">
+        <source src="/video/bg.mp4" type="video/mp4">
+    </video>
+        <div class="overlay"></div>
+        <div class="textContainer">
+        <div class="textContainerInner">
+        <h1>É novo aqui !?</h1>
+        <hr/>
+        <p>Cadastre-se ao lado </p>
+        </div>
+        </div>
+    </div>
+<script type="text/javascript">
+    var avatarInput = document.getElementById('avatar')
+    var img = document.querySelector('label[for=avatar] img')
+
+    avatarInput.onchange = function(e){
+        img.classList.add('preview')
+        img.src = URL.createObjectURL(e.target.files[0])
+    }
+</script>
+
+{% endblock %}
