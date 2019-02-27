@@ -1,0 +1,36 @@
+{% extends "_layouts/auth.njk" %}
+
+{% block body %}
+<div class="left">
+      <form action="/signin" method="post">
+        <label class="logo">
+            <img src="/images/logo.png" style="width:80%; margin-left:5%; margin-bottom:0rem"/>
+        </label>
+        <hr />
+
+
+        <input type="text" name="email" placeholder="exemple@exemple.com" />
+        <input type="password" name="password" placeholder="********" />
+
+
+        <button type="submit">Logar</button>
+        <a href="/signup" class="loginorsignup">Criar Conta</a>
+         {% include "_partials/flash.njk" %}
+      </form>
+    </div>
+    <div class="right">
+
+    <video autoplay muted loop id="myVideo">
+        <source src="/video/bg.mp4" type="video/mp4">
+    </video>
+        <div class="overlay"></div>
+        <div class="textContainer">
+        <div class="textContainerInner">
+        <h1>Seja Bem Vindo</h1>
+        <hr/>
+        <p>Entre Novamente ;)</p>
+        </div>
+        </div>
+    </div>
+
+{% endblock %}

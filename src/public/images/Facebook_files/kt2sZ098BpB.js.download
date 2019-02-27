@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["z+6uN"]); }
+
+__d("react-relay-deprecated/classic/container/RelayStaticContainer",["React"],(function(a,b,c,d,e,f){"use strict";__p&&__p();var g;g=babelHelpers.inherits(a,b("React").Component);g&&g.prototype;a.prototype.shouldComponentUpdate=function(a){return!!a.shouldUpdate};a.prototype.render=function(){var a=this.props.children;return a?b("React").Children.only(a):null};function a(){g.apply(this,arguments)}e.exports=a}),null);

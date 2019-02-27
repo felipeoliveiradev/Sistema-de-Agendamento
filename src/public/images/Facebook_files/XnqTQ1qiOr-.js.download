@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["esVg7"]); }
+
+__d("getSUIErrorUniform.fds",["ix","cssVar","Image.react","React","asset"],(function(a,b,c,d,e,f,g,h){"use strict";function a(){return{error:{borderColor:"#FA383E",icon:b("React").createElement(b("Image.react"),{src:g("480267")})},warning:{borderColor:"#FFBA00",icon:b("React").createElement(b("Image.react"),{src:g("480789")})}}}e.exports=a}),null);

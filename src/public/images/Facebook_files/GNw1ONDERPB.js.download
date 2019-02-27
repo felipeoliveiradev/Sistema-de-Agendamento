@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["4zOx2"]); }
+
+__d("react-relay-deprecated/classic/container/isRelayContainer",[],(function(a,b,c,d,e,f){"use strict";function a(a){return!!(a&&a.getFragmentNames&&a.getFragment&&a.hasFragment&&a.hasVariable)}e.exports=a}),null);

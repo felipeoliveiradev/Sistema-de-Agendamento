@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["pa6t7"]); }
+
+__d("adsLWIAAIsSkipQuestionnaireEligibleSelector",["adsCreateSelector","adsLWIAutomatedAdsObjectiveStoreDataSelector"],(function(a,b,c,d,e,f){"use strict";a=b("adsCreateSelector")([b("adsLWIAutomatedAdsObjectiveStoreDataSelector")],function(a){return a.is_skip_questionnaire_eligible},{name:e.id+".adsLWIAAIsSkipQuestionnaireEligibleSelector"});e.exports=a}),null);

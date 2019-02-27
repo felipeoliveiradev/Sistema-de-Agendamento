@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["gmt75"]); }
+
+__d("SignalsLoggingBoundaryHelper",["SignalsLoggingSessionErrors","signalsLoggingDefineSessionByComponentLifetime"],(function(a,b,c,d,e,f){"use strict";__p&&__p();var g=b("SignalsLoggingSessionErrors").DuplicateSessionNameError;a={startSession:function(a){var c=null;try{c=a.startSession()}catch(c){if(c instanceof g)a.logError(c,b("signalsLoggingDefineSessionByComponentLifetime").ERROR_ACTION);else{a.logError(c,"boundary start session error");throw c}}return c}};e.exports=a}),null);

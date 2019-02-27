@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["z5gv+"]); }
+
+__d("getSUIDropdownSelectorOptionGroupUniform.fds",["ix","cssVar","React","SUIGlyphIcon.react","asset","createBUITypeStyle"],(function(a,b,c,d,e,f,g,h){"use strict";function a(){return{activeBackgroundColor:"#DADDE1",activeColor:"#1C1E21",collapsedIcon:b("React").createElement(b("SUIGlyphIcon.react"),{srcDefault:g("496752")}),color:"#1C1E21",expandedIcon:b("React").createElement(b("SUIGlyphIcon.react"),{srcDefault:g("504839")}),highlightedBackgroundColor:"#F5F6F7",highlightedColor:"#1C1E21",typeStyle:b("createBUITypeStyle")({color:"#1C1E21",fontSize:"12px",fontWeight:"bold"})}}e.exports=a}),null);

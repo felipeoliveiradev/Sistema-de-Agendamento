@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["ffgeR"]); }
+
+__d("getSUIDividerUniform.fds",["cssVar","suiMargin"],(function(a,b,c,d,e,f,g){"use strict";function a(){return{color:"#DADDE1",margin:"_3-8p"}}e.exports=a}),null);

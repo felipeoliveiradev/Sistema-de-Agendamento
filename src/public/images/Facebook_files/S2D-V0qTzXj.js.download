@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["l\/Pu\/"]); }
+
+__d("react-relay-deprecated/classic/tools/RelayInternals",["react-relay-deprecated/classic/store/RelayStore","react-relay-deprecated/classic/traversal/flattenRelayQuery","react-relay-deprecated/classic/traversal/printRelayQuery"],(function(a,b,c,d,e,f){"use strict";a={NetworkLayer:b("react-relay-deprecated/classic/store/RelayStore").getStoreData().getNetworkLayer(),DefaultStoreData:b("react-relay-deprecated/classic/store/RelayStore").getStoreData(),flattenRelayQuery:b("react-relay-deprecated/classic/traversal/flattenRelayQuery"),printRelayQuery:b("react-relay-deprecated/classic/traversal/printRelayQuery")};e.exports=a}),null);

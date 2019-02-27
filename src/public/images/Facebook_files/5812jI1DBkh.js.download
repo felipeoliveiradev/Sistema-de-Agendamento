@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["dDtDh"]); }
+
+__d("getURIBuilder",["RelayRouter","XControllerURIBuilder"],(function(a,b,c,d,e,f){"use strict";function a(a){b("RelayRouter").addRoute(a);return new(b("XControllerURIBuilder"))(a.path||"",a.paramDefinitions||{})}e.exports=a}),null);

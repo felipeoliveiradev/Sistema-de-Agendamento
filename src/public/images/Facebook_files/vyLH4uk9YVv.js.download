@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["RDqiZ"]); }
+
+__d("react-relay-deprecated/classic/mutation/RelayMutationDebugPrinter",["react-relay-deprecated/classic/traversal/printRelayQuery"],(function(a,b,c,d,e,f){"use strict";__p&&__p();var g={printOptimisticMutation:function(a,b){if(!console.groupCollapsed||!console.groupEnd)return;g.printMutation(a,"Optimistic");console.groupCollapsed("Optimistic Response");console.groupEnd()},printMutation:function(a,c){if(!console.groupCollapsed||!console.groupEnd)return;a=a?b("react-relay-deprecated/classic/traversal/printRelayQuery")(a):null;c=c||"Mutation";console.groupCollapsed(c+" Variables");console.groupEnd();console.groupCollapsed(c+" Query");console.groupEnd()}};e.exports=g}),null);

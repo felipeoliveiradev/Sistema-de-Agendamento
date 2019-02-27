@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["i4Wxz"]); }
+
+__d("getSUIModalCardUniform.fds",["cssVar","createBUITypeStyle"],(function(a,b,c,d,e,f,g){"use strict";function a(){return{backgroundColor:"#FFFFFF",bodyHorizontalMargin:12,bodyVerticalMargin:20,cardBoxShadow:"0 1px 2px 0 rgba(0, 0, 0, 0.1),\n              0 0 0 1px rgba(0, 0, 0, 0.1)",closeButtonPosition:14,modalBoxShadow:"0 0 0 1px rgba(0, 0, 0, 0.1),\n              0 16px 32px 2px rgba(0, 0, 0, 0.15)",typeStyle:b("createBUITypeStyle")({color:"#1C1E21",fontSize:"12px"})}}e.exports=a}),null);

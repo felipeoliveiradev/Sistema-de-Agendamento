@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["ledbA"]); }
+
+__d("react-relay-deprecated/classic/query/forEachRootCallArg",["invariant","react-relay-deprecated/classic/query/stableStringify"],(function(a,b,c,d,e,f,g){"use strict";__p&&__p();function a(a,c){a.getBatchCall()&&g(0,1127);function d(a,c){Array.isArray(a)?a.forEach(function(a){return d(a,c)}):c({identifyingArgValue:a,identifyingArgKey:a==null?null:typeof a==="string"?a:b("react-relay-deprecated/classic/query/stableStringify")(a)})}a=a.getIdentifyingArg();a=a&&a.value||null;d(a,c)}e.exports=a}),null);

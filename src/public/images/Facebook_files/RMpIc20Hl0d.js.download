@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["mlfkE"]); }
+
+__d("react-relay-deprecated/classic/store/isClassicRelayEnvironment",[],(function(a,b,c,d,e,f){"use strict";function a(a){return typeof a==="object"&&a!==null&&typeof a.applyMutation==="function"&&typeof a.sendMutation==="function"&&typeof a.forceFetch==="function"&&typeof a.getFragmentResolver==="function"&&typeof a.getStoreData==="function"&&typeof a.primeCache==="function"}e.exports=a}),null);

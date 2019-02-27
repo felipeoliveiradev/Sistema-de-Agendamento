@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["pzBWw"]); }
+
+__d("getSUILinkUniform.fds",["cssVar"],(function(a,b,c,d,e,f,g){"use strict";function a(){return{normalColor:"#385898",hoverColor:"#385898",inverseColor:"#FFFFFF",inverseHoverColor:"#FFFFFF"}}e.exports=a}),null);

@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["n4SEh"]); }
+
+__d("oz-player/networks/createNetworkError",["oz-player/utils/OzError"],(function(a,b,c,d,e,f){"use strict";a=function(a,c,d,e,f){return new(b("oz-player/utils/OzError"))({type:"OZ_NETWORK",description:f,extra:{originalError:a,code:c.toString(),headers:d,url:e}})};e.exports=a}),null);

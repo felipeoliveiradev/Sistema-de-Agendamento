@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["JCKeP"]); }
+
+__d("getSUIPopoverUniform.fds",["ix","cssVar","React","SUIGlyphIcon.react","asset","createBUITypeStyle"],(function(a,b,c,d,e,f,g,h){"use strict";function a(){return{backgroundColor:"#FFFFFF",border:"1px solid transparent",boxShadow:"0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1)",icon:b("React").createElement(b("SUIGlyphIcon.react"),{srcDefault:g("481013"),srcHover:g("485955")}),footer:{borderTop:"1px solid #DADCDE"},title:{typeStyle:b("createBUITypeStyle")({color:"#1C1D1D",fontSize:"14px",fontWeight:"bold"})},typeStyle:b("createBUITypeStyle")({color:"#1C1D1D",fontSize:"12px",fontWeight:"normal"})}}e.exports=a}),null);

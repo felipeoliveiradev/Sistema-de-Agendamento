@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["+zLui"]); }
+
+__d("react-relay-deprecated/classic/query-config/RelayQueryConfig",["invariant"],(function(a,b,c,d,e,f,g){"use strict";function h(a){this.constructor!==h||g(0,4383),Object.defineProperty(this,"name",{enumerable:!0,value:this.constructor.routeName}),Object.defineProperty(this,"params",{enumerable:!0,value:this.prepareVariables(babelHelpers["extends"]({},a))||{}}),Object.defineProperty(this,"queries",{enumerable:!0,value:babelHelpers["extends"]({},this.constructor.queries)})}h.prototype.prepareVariables=function(a){return a};e.exports=h}),null);

@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["OJY3e"]); }
+
+__d("react-relay-deprecated/classic/query/callsToGraphQL",["react-relay-deprecated/classic/query/QueryBuilder"],(function(a,b,c,d,e,f){"use strict";function a(a){return a.map(function(a){var c=a.name,d=a.type;a=a.value;var e=null;Array.isArray(a)?e=a.map(b("react-relay-deprecated/classic/query/QueryBuilder").createCallValue):a!=null&&(e=b("react-relay-deprecated/classic/query/QueryBuilder").createCallValue(a));return b("react-relay-deprecated/classic/query/QueryBuilder").createCall(c,e,d)})}e.exports=a}),null);

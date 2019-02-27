@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["z01v9"]); }
+
+__d("XUIAbstractGlyphButton.react",["cx","AbstractButton.react","React","joinClasses"],(function(a,b,c,d,e,f,g){"use strict";__p&&__p();var h;h=babelHelpers.inherits(a,b("React").Component);h&&h.prototype;a.prototype.render=function(){return b("React").createElement(b("AbstractButton.react"),babelHelpers["extends"]({},this.props,{className:b("joinClasses")(this.props.className,"_5upp"),label:this.props.label}))};function a(){h.apply(this,arguments)}a.propTypes=b("AbstractButton.react").propTypes;e.exports=a}),null);

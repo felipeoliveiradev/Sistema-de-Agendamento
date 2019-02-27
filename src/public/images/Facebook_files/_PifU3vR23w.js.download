@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["v\/Odv"]); }
+
+__d("SUITextUniform.fds",["getSUITextUniform.fds"],(function(a,b,c,d,e,f){"use strict";e.exports=b("getSUITextUniform.fds")()}),null);

@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["XTeXB"]); }
+
+__d("react-relay-deprecated/classic/store/isClassicRelayContext",["react-relay-deprecated/classic/store/isClassicRelayEnvironment","react-relay/isRelayVariables"],(function(a,b,c,d,e,f){"use strict";function a(a){return typeof a==="object"&&a!==null&&!Array.isArray(a)&&b("react-relay-deprecated/classic/store/isClassicRelayEnvironment")(a.environment)&&b("react-relay/isRelayVariables")(a.variables)}e.exports=a}),null);

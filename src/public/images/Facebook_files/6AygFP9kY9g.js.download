@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["WI+vr"]); }
+
+__d("react-relay-deprecated/classic/traversal/flattenSplitRelayQueries",[],(function(a,b,c,d,e,f){"use strict";__p&&__p();function a(a){__p&&__p();var b=[],c=[a];while(c.length){a=c.shift();a=a;var d=a.required;a=a.deferred;d&&b.push(d);a.length&&c.push.apply(c,a)}return b}e.exports=a}),null);

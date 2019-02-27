@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["oApyo"]); }
+
+__d("react-relay-deprecated/classic/query/callsFromGraphQL",["invariant"],(function(a,b,c,d,e,f,g){"use strict";__p&&__p();function a(a,b){__p&&__p();a=a;var c=[];for(var d=0;d<a.length;d++){var e=a[d],f=e.value;f!=null&&(Array.isArray(f)?f=f.map(function(a){return h(a,b)}):f.kind==="BatchCallVariable"?f=null:f=h(f,b));var g=e.metadata;e=e.name;e={name:e,value:f};g&&g.type&&(e.type=g.type);c.push(e)}return c}function h(a,b){__p&&__p();var c;if(a.kind==="CallValue")c=a.callValue;else{a=a.callVariableName;Object.prototype.hasOwnProperty.call(b,a)||g(0,3961,a);c=b[a]}b=typeof c;c==null||b==="boolean"||b==="number"||b==="string"||b==="object"||g(0,3962,JSON.stringify(c));return c}e.exports=a}),null);

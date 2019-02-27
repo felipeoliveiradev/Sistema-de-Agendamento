@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["csnMv"]); }
+
+__d("getSUITooltipUniform.fds",["cssVar","createBUITypeStyle"],(function(a,b,c,d,e,f,g){"use strict";function a(){return{backgroundColor:"#1C1E21",color:"#FFFFFF",typeStyle:b("createBUITypeStyle")({color:"#FFFFFF",fontSize:"12px",fontWeight:"bold"})}}e.exports=a}),null);

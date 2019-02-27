@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["RFHgA"]); }
+
+__d("react-relay-deprecated/classic/environment/RelayOperationDescriptor",["invariant","react-relay-deprecated/classic/query/QueryBuilder","react-relay-deprecated/classic/query/RelayVariables","react-relay-deprecated/classic/store/RelayStoreConstants"],(function(a,b,c,d,e,f,g){"use strict";var h=b("react-relay-deprecated/classic/query/RelayVariables").getOperationVariables,i=b("react-relay-deprecated/classic/store/RelayStoreConstants").ROOT_ID;function a(a,c){var d=b("react-relay-deprecated/classic/query/QueryBuilder").getFragment(a.node);d||g(0,13351,a.node.kind,a.name);c=h(a,c);d={dataID:i,node:d,variables:c};return{fragment:d,node:a,root:d,variables:c}}e.exports={createOperationDescriptor:a}}),null);

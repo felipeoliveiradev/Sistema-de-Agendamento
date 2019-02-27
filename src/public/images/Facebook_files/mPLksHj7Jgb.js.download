@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["jxvdo"]); }
+
+__d("getSUIDropdownSelectorUniform.fds",["cssVar"],(function(a,b,c,d,e,f,g){"use strict";function a(){return{backgroundColor:"#FFFFFF",borderColor:"#DADDE1",boxShadow:"0 0 4px 0 rgba(0, 0, 0, 0.2)"}}e.exports=a}),null);
